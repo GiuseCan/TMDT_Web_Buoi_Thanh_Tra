@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, p, a {
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+header section#header_1 {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    background-color: #3d5f00;
+}
+
+header section#header_1 input {
+    width: 285px;
+    height: 30px;
+    border: 2.5px solid transparent;
+    border-bottom-color: #ffffff;
+    background-color: transparent;
+    background-image: url(image/iconweb/looking.png);
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+}
+header section#header_1 input::placeholder {
+    color: #ffffff;
+}
+
+header section#header_1 h4 {
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background-image: url(image/iconweb/Heat_header.png), url(image/iconweb/cart_header.png);
+    background-repeat: no-repeat;
+    background-position: right 50px top 0, right 0 top 0;
+}
+
+header section#header_2 ul {
+    display: flex;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 250px;
+}
+
+header section#header_2 ul li a {
+    font-weight: bold;
+    color: #3d5f00;
+}
+
+/* ---------------------- */
+
+section#intro {
+    height: 800px;
+    background-color: #d6d6d6;
+    background-image: url(image/content/section_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right -184px top 0;
+    padding: 210px;
+    padding-left: 55px;
+}
+
+section#intro div {
+    width: 490px;
+    height: 385px;
+}
+section#intro div h2 {
+    color: #ffffff;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px #30362c;
+}
+section#intro div h2 span {
+    font-size: 50px;
+}
+
+section#intro div > span {
+    display: inline-block;
+    width: 354px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-left: 65px;
+}
+
+section#intro div p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-shadow: 2px 2px #30362c;
+}
+
+section#intro div button {
+    background-color: transparent;
+    width: 221.68px;
+    height: 78px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    position: relative;
+    text-shadow: 2px 2px #30362c;
+}
+ 
+section#intro div button::after {
+    content: '';
+    display: inline-block;
+    width: 90.76px;
+    height: 78px;
+    position: absolute;
+    border: 2px solid #ffffff;
+    left: 250px;
+    top: 0;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    background-image: url(image/iconweb/arrow_section_intro.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* ------------------------- */
+section#about_us div#about_1 {
+    padding-top: 130px;
+    max-width: 750px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+section#about_us div h2 {
+    color: #3d5f00;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section#about_us div#about_1 p {
+    color: #3d5f00;
+    text-align: center;
+}
+
+div#about_2 {
+    display: flex;
+    justify-content: space-around;
+}
+div#about_2 div {
+    width: 370px;
+    position: relative;
+}
+div#about_2 div::before {
+    content: ' ';
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    background-image: url(image/iconweb/Shape_about.png);
+    background-repeat: no-repeat;
+    left: 454px;
+    top: -14px;
+}
+section#about_us div p {
+    color: #3d5f00;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+section#about_us div button {
+    background-color: #3d5f00;
+    width: 221.68px;
+    height: 78px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    position: relative;
+    text-shadow: 2px 2px #30362c;
+}
+ 
+section#about_us div button::after {
+    content: '';
+    display: inline-block;
+    background-color: #3d5f00;
+    width: 90.76px;
+    height: 78px;
+    position: absolute;
+    border: 2px solid #ffffff;
+    left: 250px;
+    top: 0;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    background-image: url(image/iconweb/arrow_section_intro.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* ----------- */
+div#about_3 {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+div#about_3 div {
+    width: 370px;
+    position: relative;
+}
+div#about_3 div::before {
+    content: ' ';
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    background-image: url(image/iconweb/Shape_about.png);
+    background-repeat: no-repeat;
+    left: -560px;
+    top: -14px;
+}
+
+/* -------------------------- */
+
+section#sale {
+    margin-top: 70px;
+    background-color: #e9e8e7;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    
+    background-image: url(image/content/sale.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 10px top 0;
+}
+
+section#sale div {
+    width: 600px;
+    padding-left: 55px;
+}
+
+section#sale div h2:first-child {
+    font-size: 30px;
+}
+section#sale div h2 {
+    color: #3d5f00;
+    font-weight: bold;
+    font-size: 50px;
+}
+section#sale div h3 {
+    color: #3d5f00;
+    word-spacing: 5px;
+    word-spacing: 15px;
+    letter-spacing: 9px;
+    font-size: 30px;
+}
+
+section#sale div p {
+    margin-top: 35px;
+    color: #3d5f00;
+}
+
+section#sale div button {
+    background-color: #3d5f00;
+    width: 221.68px;
+    height: 78px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    position: relative;
+    text-shadow: 2px 2px #30362c;
+}
+
+/* ---------------------- */
+section#price > div:first-child {
+    padding-top: 100px;
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+section#price div h2 {
+    color: #3d5f00;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+}
+section#price div h4, section#price div h5 {
+    color: #ffffff;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+}
+
+section#price div h4 {
+    font-size: 20px;
+    padding-top: 41px;  
+}
+section#price div h5 {
+    font-size: 30px;  
+}
+
+section#price div p {
+    color: #3d5f00;
+    text-align: center;
+}
+
+section#price div#price_1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#price_1 div {
+    width: 244px;
+    background-color: #f1f1f1;
+}
+
+div#price_1 > div > div:first-child {
+    height: 150px;
+    background-color: #608b14;
+}
+
+div#price_1 > div > div:nth-child(2) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+div#price_1 > div > div:nth-child(2) p {
+    line-height: 30px;
+}
+
+div#price_1 > div > div:nth-child(2) button {
+    background-color: #3d5f00;
+    width: 185px;
+    height: 55px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    text-shadow: 2px 2px #30362c;
+    margin: 20px calc((244px - 185px) / 2); 
+}
+
+section#price > div#price_1 > div:nth-child(2) > div:first-child {
+    background-image: url(image/iconweb/Title_price.png);
+    background-repeat: no-repeat;
+    background-position: right 0 top 0;
+}
+
+/* ------------------ */
+
+section#blog div#head_blog {
+    padding-top: 130px;
+    max-width: 750px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+section#blog div h2 {
+    color: #3d5f00;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+section#blog div#head_blog p {
+    color: #3d5f00;
+    text-align: center;
+}
+
+section#blog div#head_blog_2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#head_blog_2 > div {
+    width: 300px;
+    height: 300px;
+    background-color: #f1f1f1;
+    padding: 0 20px;
+}
+
+div#head_blog_2 > div h4 {
+    color: #3d5f00;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+div#head_blog_2 > div p {
+    color: #3d5f00;
+    padding-bottom: 10px;
+}
+
+div#head_blog_2 > div button {
+    background-color: #3d5f00;
+    width: 153px;
+    height: 46px;
+    color: #ffffff;
+    margin-top: 5px;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+    text-shadow: 2px 2px #30362c;
+}
+
+/* ------------------------------ */
+
+section#end {
+    margin-top: 100px;
+    height: 500px;
+    background-color: #3d5f00;
+    padding: 30px calc((1400px - 750px) / 2);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(image/iconweb/Shape_end_1.png), url(image/iconweb/Shape_end_2.png);
+    background-repeat: no-repeat;
+    background-position: left 91px top 286px, right 74px top 120px;
+}
+
+section#end h2 {
+    color: #ffffff;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px #30362c;
+}
+
+section#end a {
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+section#end div {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
