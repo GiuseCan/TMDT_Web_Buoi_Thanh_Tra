@@ -39,7 +39,7 @@ header section#header_1 h4 {
     display: inline-block;
     width: 250px;
     height: 30px;
-    font-size: 15px;
+    font-size: 20px;
     color: #ffffff;
     background-image: url(image/iconweb/Heat_header.png), url(image/iconweb/cart_header.png);
     background-repeat: no-repeat;
@@ -56,6 +56,7 @@ header section#header_2 ul {
 
 header section#header_2 ul li a {
     font-weight: bold;
+    font-size: 23px;
     color: #3d5f00;
 }
 
@@ -67,13 +68,13 @@ section#intro {
     background-image: url(image/content/section_intro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right -184px top 0;
+    background-position: right 0 top 0;
     padding: 210px;
-    padding-left: 55px;
+    padding-left: 60px;
 }
 
 section#intro div {
-    width: 490px;
+    width: 650px;
     height: 385px;
 }
 section#intro div h2 {
@@ -81,9 +82,10 @@ section#intro div h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
     text-align: center;
     text-shadow: 2px 2px #30362c;
+    font-size: 45px;
 }
 section#intro div h2 span {
-    font-size: 50px;
+    font-size: 65px;
 }
 
 section#intro div > span {
@@ -91,12 +93,12 @@ section#intro div > span {
     width: 354px;
     height: 3px;
     background-color: #ffffff;
-    margin-left: 65px;
+    margin-left: 139px;
 }
 
 section#intro div p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px 0px;
     text-shadow: 2px 2px #30362c;
 }
@@ -116,6 +118,7 @@ section#intro div button {
     -o-border-radius: 30px 0 30px 0;
     position: relative;
     text-shadow: 2px 2px #30362c;
+    font-size: 20px;
 }
  
 section#intro div button::after {
@@ -139,10 +142,11 @@ section#intro div button::after {
 
 /* ------------------------- */
 section#about_us div#about_1 {
-    padding-top: 130px;
+    padding-top: 90px;
     max-width: 750px;
     height: 430px;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 section#about_us div h2 {
@@ -150,11 +154,17 @@ section#about_us div h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
     text-align: center;
     padding-bottom: 10px;
+    font-size: 50px;
+}
+
+section#about_us div#about_2 div h2,  section#about_us div#about_3 div h2 {
+    font-size: 40px;
 }
 
 section#about_us div#about_1 p {
     color: #3d5f00;
     text-align: center;
+    font-size: 23px;
 }
 
 div#about_2 {
@@ -162,7 +172,7 @@ div#about_2 {
     justify-content: space-around;
 }
 div#about_2 div {
-    width: 370px;
+    width: 550px;
     position: relative;
 }
 div#about_2 div::before {
@@ -173,12 +183,12 @@ div#about_2 div::before {
     position: absolute;
     background-image: url(image/iconweb/Shape_about.png);
     background-repeat: no-repeat;
-    left: 454px;
+    left: 732px;
     top: -14px;
 }
 section#about_us div p {
     color: #3d5f00;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px 0px;
     text-align: center;
 }
@@ -198,6 +208,7 @@ section#about_us div button {
     -o-border-radius: 30px 0 30px 0;
     position: relative;
     text-shadow: 2px 2px #30362c;
+    font-size: 20px;
 }
  
 section#about_us div button::after {
@@ -227,7 +238,7 @@ div#about_3 {
     justify-content: space-around;
 }
 div#about_3 div {
-    width: 370px;
+    width: 550px;
     position: relative;
 }
 div#about_3 div::before {
@@ -238,7 +249,7 @@ div#about_3 div::before {
     position: absolute;
     background-image: url(image/iconweb/Shape_about.png);
     background-repeat: no-repeat;
-    left: -560px;
+    left: -783px;
     top: -14px;
 }
 
@@ -254,33 +265,33 @@ section#sale {
     background-image: url(image/content/sale.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right 10px top 0;
+    background-position: right 100px top 0;
 }
 
 section#sale div {
-    width: 600px;
-    padding-left: 55px;
+    width: 760px;
+    padding-left: 100px;
 }
 
 section#sale div h2:first-child {
-    font-size: 30px;
+    font-size: 40px;
 }
 section#sale div h2 {
     color: #3d5f00;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
 }
 section#sale div h3 {
     color: #3d5f00;
-    word-spacing: 5px;
     word-spacing: 15px;
-    letter-spacing: 9px;
-    font-size: 30px;
+    letter-spacing: 10px;
+    font-size: 35px;
 }
 
 section#sale div p {
     margin-top: 35px;
     color: #3d5f00;
+    font-size: 20px;
 }
 
 section#sale div button {
@@ -303,7 +314,7 @@ section#sale div button {
 /* ---------------------- */
 section#price > div:first-child {
     padding-top: 100px;
-    max-width: 500px;
+    max-width: 700px;
     height: 300px;
     margin: 0 auto;
 }
@@ -312,7 +323,14 @@ section#price div h2 {
     color: #3d5f00;
     font-family: 'Alegreya Sans SC', sans-serif;
     text-align: center;
+    font-size: 45px;
 }
+
+section#price div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 section#price div h4, section#price div h5 {
     color: #ffffff;
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -320,11 +338,11 @@ section#price div h4, section#price div h5 {
 }
 
 section#price div h4 {
-    font-size: 20px;
+    font-size: 35px;
     padding-top: 41px;  
 }
 section#price div h5 {
-    font-size: 30px;  
+    font-size: 45px;  
 }
 
 section#price div p {
@@ -338,29 +356,28 @@ section#price div#price_1 {
 }
 
 div#price_1 div {
-    width: 244px;
+    width: 414px;
     background-color: #f1f1f1;
 }
 
 div#price_1 > div > div:first-child {
-    height: 150px;
+    height: 246px;
     background-color: #608b14;
 }
 
 div#price_1 > div > div:nth-child(2) {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 70px 0;
 }
 div#price_1 > div > div:nth-child(2) p {
-    line-height: 30px;
+    line-height: 60px;
+    font-size: 20px;
 }
 
 div#price_1 > div > div:nth-child(2) button {
     background-color: #3d5f00;
     width: 185px;
-    height: 55px;
+    height: 61px;
     color: #ffffff;
-    margin-top: 30px;
     font-weight: bolder;
     border: 2px solid #ffffff;
     border-radius: 30px 0 30px 0;
@@ -369,7 +386,9 @@ div#price_1 > div > div:nth-child(2) button {
     -ms-border-radius: 30px 0 30px 0;
     -o-border-radius: 30px 0 30px 0;
     text-shadow: 2px 2px #30362c;
-    margin: 20px calc((244px - 185px) / 2); 
+    margin: 0 calc((414px - 185px) / 2); 
+    margin-top: 50px;
+    font-size: 17px;
 }
 
 section#price > div#price_1 > div:nth-child(2) > div:first-child {
@@ -382,7 +401,7 @@ section#price > div#price_1 > div:nth-child(2) > div:first-child {
 
 section#blog div#head_blog {
     padding-top: 130px;
-    max-width: 750px;
+    max-width: 850px;
     height: 350px;
     margin: 0 auto;
 }
@@ -392,37 +411,41 @@ section#blog div h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
     text-align: center;
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 section#blog div#head_blog p {
     color: #3d5f00;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 section#blog div#head_blog_2 {
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 div#head_blog_2 > div {
-    width: 300px;
-    height: 300px;
+    width: 414px;
+    height: 386px;
     background-color: #f1f1f1;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 div#head_blog_2 > div h4 {
     color: #3d5f00;
     font-family: 'Alegreya Sans SC', sans-serif;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
 }
 
 div#head_blog_2 > div p {
     color: #3d5f00;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
 }
 
 div#head_blog_2 > div button {
@@ -447,7 +470,7 @@ section#end {
     margin-top: 100px;
     height: 500px;
     background-color: #3d5f00;
-    padding: 30px calc((1400px - 750px) / 2);
+    padding: 30px calc((1400px - 300px) / 2);
 
     display: flex;
     flex-wrap: wrap;
@@ -456,7 +479,7 @@ section#end {
 
     background-image: url(image/iconweb/Shape_end_1.png), url(image/iconweb/Shape_end_2.png);
     background-repeat: no-repeat;
-    background-position: left 91px top 286px, right 74px top 120px;
+    background-position: left 151px top 286px, right 130px top 111px;
 }
 
 section#end h2 {
@@ -464,15 +487,18 @@ section#end h2 {
     font-family: 'Alegreya Sans SC', sans-serif;
     text-align: center;
     text-shadow: 2px 2px #30362c;
+    font-size: 30px;
 }
 
 section#end a {
     margin-top: 30px;
     color: #ffffff;
+    font-size: 30px;
 }
 
 section#end div {
-    width: 250px;
+    margin-top: 10px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }
